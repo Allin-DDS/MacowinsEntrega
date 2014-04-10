@@ -4,8 +4,10 @@ public class Prenda {
 	double precioIntermedio;
 	double precioFinal;
 	int valorFijoNegocio; //parecería mas natural que el valorFijoNegocio lo conociera el negocio mismo
-							//tal vez la prenda podria conocer al negocio o que se lo pasen por parametro
-							//recuerden la idea de encapsulamiento y la propiedad de cohesión
+						//tal vez la prenda podria conocer al negocio o que se lo pasen por parametro
+						//recuerden la idea de encapsulamiento y la propiedad de cohesión
+						//de todas formas no se lo tomen como algo taxativo, simplemente entiendan la decisión que están tomando ahí
+						//y que al poner este atributo acá están agregando un acoplamiento entre Prenda y Negocio que no es muy explícito que digamos
 	double tasaDeImportacion;
 	double precioSinSaberMarca;
 	boolean esImportada;
