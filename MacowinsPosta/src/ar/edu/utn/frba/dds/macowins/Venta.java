@@ -5,7 +5,7 @@ public class Venta {
 	Prenda prenda;
 	int cantidad;
 	Date fecha;
-	double precioDeVenta;
+	double precioDeVenta; //y este atributo? 
 	
 	
 	
@@ -23,7 +23,7 @@ public class Venta {
 	}
 	
 	public double precioDeVenta(){
-		return(this.cantidad * this.precioDeVenta);
+		return(this.cantidad * this.precioDeVenta); //creo que aca quisieron poner this.cantidad * prenda.precioFinal()
 	}
 	
 	public Venta(int cantidad, Prenda prenda, Date fecha){
